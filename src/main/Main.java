@@ -5,6 +5,6 @@ import lombok.Getter;
 @Getter
 public class Main {
   public static void main(String[] args) {
-    System.out.println("making a movie ticket");
+    System.out.println("Booking a movie ticket");
   }
 }
