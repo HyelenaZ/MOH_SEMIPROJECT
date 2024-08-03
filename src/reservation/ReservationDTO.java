@@ -2,15 +2,17 @@ package reservation;
 
 import lombok.Data;
 
-import java.util.Date;
-
+@Data
 public class ReservationDTO {
-
-    @Data
     public static class ShowtimeIdDTO {
         private int movieId;
         private int theaterId;
-        private String time;
-    }
+        private String timeString;
 
+        public ShowtimeIdDTO(int movieId, int theaterId, String timeString) {
+            this.movieId = movieId;
+            this.theaterId = theaterId;
+            this.timeString = timeString;
+        }
+    }
 }

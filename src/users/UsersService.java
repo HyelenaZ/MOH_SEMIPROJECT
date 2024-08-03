@@ -1,6 +1,8 @@
 package users;
 
 public interface UsersService {
-    public void join();
-    public void login();
+    void join();
+    void login();
+    void showMovieList();
+    void showTimeTable();
 }
