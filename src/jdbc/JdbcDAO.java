@@ -11,7 +11,7 @@ public class JdbcDAO {
     private final String driver = "oracle.jdbc.driver.OracleDriver";
     private final String url = "jdbc:oracle:thin:@localhost:1521:xe";
     private final String user = "C##java";
-    private final String password = "1234";
+    private final String password = "----";
 
     private Connection conn;
     private PreparedStatement pstmt;
